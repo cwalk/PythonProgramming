@@ -1,19 +1,10 @@
-def printline(n):
-
-#setting up loop for printing * and stopping it at the end of the line
+def triangle(n):
+    #takes an integer n and then returns a triangle consisting of (n) many lines
     i = 1
     while (i <= n):
-        print('*', end = '')
+        print("*" * i)
         i = i + 1
-    print()    
-
-def printtri(n):
-
-#setting up loop for printing the * triangle
-    i = 1
-    while (i <= n):
-        printline(i)
-        i = i + 1
+    return
 
 def main():
 
@@ -21,7 +12,7 @@ def main():
     n = int(input('Enter n '))
 
 #call the function to print the triangle
-    printtri(n)
+    triangle(n)
 
 main()
 

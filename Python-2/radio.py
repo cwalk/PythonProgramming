@@ -22,12 +22,12 @@ def main():
 #respective lists
     
     for num in range(n):
-                pair = input('Please enter censored/uncensored pair #%d:\n' %(num + 1))
+                pair = raw_input('Please enter censored/uncensored pair #%d:\n' %(num + 1))
                 censored_words.append(pair.split(' ')[0])
                 uncensored_words.append(pair.split(' ')[1])
        
 #Prompt user for their sentence and break it apart into words
-    sentence = input('Please enter a sentence with lowercase letters only:\n')
+    sentence = raw_input('Please enter a sentence with lowercase letters only:\n')
     uncensored_sentence = sentence.split(' ')
 
 #setting up for loop to check each word in the sentence entered by user

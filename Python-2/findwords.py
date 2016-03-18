@@ -10,7 +10,7 @@ and prints out each separate word in that sentence.
 def main():
 
 #ask user for sentence
-    original_sentence = input('What is your sentence?\n')
+    original_sentence = raw_input('What is your sentence?\n')
 
 #Set new variable fixed_sentence
     fixed_sentence = ""

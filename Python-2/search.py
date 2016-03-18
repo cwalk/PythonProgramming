@@ -12,7 +12,7 @@ import random
 def guess():
 
 #Asks user to guess a x and y value for the game
-    x, y = input('Enter your guess for x and y.\n').split(' ')
+    x, y = raw_input('Enter your guess for x and y.\n').split(' ')
     x = int(x)
     y = int(y)
     return x, y
